@@ -1,0 +1,156 @@
+    #h1-contact {
+        color: white;
+        font-weight: 100%;
+    }
+    
+    .H1C {
+        text-align: center;
+        font-weight: 700;
+        font-size: 150px;
+        margin-top: 18%;
+    }
+    
+    .H2C {
+        text-align: center;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        user-select: none;
+    }
+    
+    @font-face {
+        font-family: 'calistogaregular';
+        src: url('calistoga-regular-webfont.woff2') format('woff2'), url('calistoga-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    .wrapper {
+        margin: 100px auto 0;
+        width: 100%;
+        max-width: 680px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    /* content */
+    
+    .content {
+        text-align: center;
+    }
+    
+    .content h1 {
+        letter-spacing: 1px;
+    }
+    /* form */
+    
+    .form {
+        width: 100%;
+        margin: 25px 0;
+    }
+    
+    .top-form,
+    .middle-form,
+    .bottom-form {
+        width: 100%;
+        min-height: 65px;
+        margin: 10px 0;
+    }
+    
+    #div.label {
+        color: white;
+    }
+    
+    .form input[type="text"],
+    .form textarea {
+        border: 2px solid #fff;
+        padding: 15px 5px;
+        outline: none;
+        border-radius: 2px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: all 0.2s ease;
+    }
+    
+    .form .label {
+        margin-bottom: 5px;
+        text-transform: capitalize;
+    }
+    /* top-contact */
+    
+    .top-form .inner-form {
+        width: 29.9%;
+        float: left;
+        margin-right: 5%;
+    }
+    
+    .top-form .inner-form:last-child {
+        margin-right: 0;
+    }
+    /* middle-form */
+    
+    .middle-form {
+        clear: both;
+    }
+    /* bottom-form */
+    
+    .bottom-form textarea {
+        height: 120px;
+    }
+    
+    .btn {
+        background: rgba(48, 48, 48, 0.534);
+        width: 150px;
+        padding: 2px 0;
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border-color: rgba(0, 0, 0, 0.041);
+    }
+    
+    .btn:hover {
+        background-color: #f0f0f046;
+        color: rgb(255, 255, 255);
+        border-color: rgba(0, 0, 0, 0.041);
+    }
+    
+    .card-1:hover {
+        background-color: #27272746;
+        color: rgb(255, 255, 255);
+        border-color: rgba(59, 59, 59, 0.041);
+    }
+    
+    .card-2:hover {
+        background-color: #27272746;
+        color: rgb(255, 255, 255);
+        border-color: rgba(59, 59, 59, 0.041);
+        max-width: 36rem;
+        max-height: 10rem;
+    }
+    
+    @media screen and (max-width: 460px) {
+        .wrapper {
+            margin: 25px auto 0;
+        }
+        .top-form .inner-form {
+            width: 100%;
+            margin: 5px 0;
+        }
+        .top-form,
+        .middle-form,
+        .bottom-form {
+            margin: 5px 0;
+        }
+        .form {
+            margin-top: 10px;
+        }
+        .form input[type="text"],
+        .form textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }

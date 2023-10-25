@@ -1,0 +1,241 @@
+/* begin body */
+
+body {
+    background-image: url(https://i.pinimg.com/originals/1f/94/e7/1f94e7ae40fa76ab81226590c37318c7.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    /* Hide vertical scrollbar */
+}
+
+
+/* einde body */
+
+
+/* navbar */
+
+#navbar {
+    background-color: #1a1a1a;
+    border: 3px solid #720909;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    max-height: 100px;
+    font-weight: bold;
+    background-image: url("https://us.123rf.com/450wm/shutter2u/shutter2u1912/shutter2u191200001/135707470-chinese-traditional-oriental-background-red-clouds-ornament-pattern-on-red-background-chinese-new-ye.jpg?ver=6");
+    object-fit: cover;
+    box-shadow: 0 19px 38px rgba(146, 12, 12, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#jumbotron {
+    color: #eeff00;
+}
+
+#nav_text_1:hover {
+    background-color: #ffffff46;
+    color: black;
+}
+
+#nav_text_1 {
+    color: white;
+}
+
+
+/* slideshow */
+
+.carousel-inner {
+    height: 190px;
+    border-radius: 44px;
+    border: 3px solid #7e270d60;
+}
+
+#jumbotron {
+    /* border: 2px solid black; */
+    background-color: transparent;
+    text-align: left;
+}
+
+
+/* cards */
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-img-overlay {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-5 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+
+.card-5 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    background-image: url();
+}
+
+.card-1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.39), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 15px;
+    max-width: 35rem;
+    background-color: rgba(180, 180, 180, 0.411);
+    transform: rotateZ(2deg);
+    margin-left: 90px;
+}
+
+.card-2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.411), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 15px;
+    max-width: 35rem;
+    background-color: rgba(180, 180, 180, 0.411);
+    transform: rotateZ(-2deg);
+}
+
+.card-link {
+    color: rgb(187, 187, 187);
+}
+
+.products {
+    border: 1px solid #333;
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#buttonshop {
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+/* hier zit de fout met producten image */
+
+#image {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#imageProduct {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#image2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 19px 38px rgba(100, 12, 12, 0.445), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#image3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 19px 38px rgba(100, 12, 12, 0.445), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#image4 {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 650px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 19px 38px rgba(100, 12, 12, 0.445), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#footer {
+    /* background-color: #a52019; */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-color: #fbff00;
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: white;
+    margin-left: 1cm;
+}
+
+#ShoppingCard {
+    color: white;
+}
+
+G {
+    color: rgb(213, 228, 0);
+}
+
+#test {
+    background-image: url(https://images.assetsdelivery.com/compings_v2/acucucu/acucucu1606/acucucu160600357.jpg);
+    background-color: rgb(119, 0, 0);
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#test1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#welkom {
+    background-image: url(https://images.assetsdelivery.com/compings_v2/acucucu/acucucu1606/acucucu160600357.jpg);
+    background-color: rgb(119, 0, 0);
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    min-height: 20cm;
+}
+
+#administratieText {
+    color: white;
+}
+
+#container {
+    background-image: url(https://images.assetsdelivery.com/compings_v2/acucucu/acucucu1606/acucucu160600357.jpg);
+    background-color: rgb(119, 0, 0);
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px;
+}
